@@ -17,7 +17,7 @@ class Dog
   
      
   def self.print_all
-    byebug
+  binding.pry
     @@all.each do |dog| 
      
   
